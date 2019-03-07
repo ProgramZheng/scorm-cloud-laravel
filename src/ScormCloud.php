@@ -2,7 +2,7 @@
 
 namespace ProgramZheng\ScormCloudLaravel;
 
-use \ScormEngineService;
+use AsifM42\ScormCloud\ScormEngineService;
 
 class ScormCloud
 {
