@@ -10,6 +10,11 @@
     "require": {
         "asifm42/scorm-cloud-php": "dev-master"
     },
+    "autoload": {
+        "psr-4": {
+            "ProgramZheng\\ScormCloudLaravel\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
