@@ -6,13 +6,5 @@
             "email": "esz759486@gmail.com"
         }
     ],
-    "license": "MIT",
-    "require": {
-        "rustici-software/scorm-cloud": "*"
-    },
-    "autoload": {
-        "files" : [
-            "vendor/rustici-software/scorm-cloud/ScormEngineService.php"
-        ]
-    }
+    "license": "MIT"
 }
