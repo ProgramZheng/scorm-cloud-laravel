@@ -6,7 +6,7 @@ use AsifM42\ScormCloud\ScormEngineService;
 
 class ScormCloud
 {
-    public $scormService,$scormCourseService,$scormRegistrationService = null;
+    public $scormService = null;
     public function __construct() {
         $this->scormService = new ScormEngineService (
             config('scormcloud.url'),
@@ -14,23 +14,6 @@ class ScormCloud
             config('scormcloud.key'),
             config('scormcloud.organization')
         );
-        $this->scormCourseService = $this->scormService->getCourseService();
-        $this->scormRegistrationService = $this->scormService->getRegistrationService();
     }
 
-    public function doRegister ($registrationId, $courseId, $learnerId, $learnerFirstName, $learnerLastName) {
-        return $this->scormRegistrationService->CreateRegistration($registrationId, $courseId, $learnerId, $learnerFirstName, $learnerLastName);
-    }
-
-    public function getLaunchUrl ($registrationId){
-        return $this->scormRegistrationService->GetLaunchUrl($registrationId,url('/'));
-    }
-
-    public function doImportCourseAsync ($courseId, $absoluteFilePathToZip) {
-        return $this->scormCourseService->ImportCourseAsync($courseId, $absoluteFilePathToZip);
-    }
-
-    public function getPreviewUrl () {
-        return $this->scormCourseService->GetPreviewUrl(1,url('/'));
-    }
 }
