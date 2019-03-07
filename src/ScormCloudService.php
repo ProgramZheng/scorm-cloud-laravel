@@ -8,7 +8,7 @@ class ScormCloudService
 {
     public $scormService = null;
     public function __construct() {
-        $this->scormService = new ScormEngineService (
+        $this->scormEngineService = new ScormEngineService (
             config('scormcloud.url'),
             config('scormcloud.app_id'),
             config('scormcloud.key'),
