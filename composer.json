@@ -6,5 +6,8 @@
             "email": "esz759486@gmail.com"
         }
     ],
-    "license": "MIT"
+    "license": "MIT",
+    "require": {
+        "asifm42/scorm-cloud-php": "dev-master"
+    }
 }
