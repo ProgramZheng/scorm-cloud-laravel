@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "rustici-software/scorm-cloud": "dev-master"
+        "rustici-software/scorm-cloud": "*"
     },
     "autoload": {
         "files" : [
