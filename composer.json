@@ -15,5 +15,12 @@
             "ProgramZheng\\ScormCloudLaravel\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "ProgramZheng\\ScormCloudLaravel\\ScormCloudLaravelProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
