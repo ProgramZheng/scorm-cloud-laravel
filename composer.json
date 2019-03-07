@@ -9,5 +9,6 @@
     "license": "MIT",
     "require": {
         "asifm42/scorm-cloud-php": "*"
-    }
+    },
+    "minimum-stability": "dev"
 }
