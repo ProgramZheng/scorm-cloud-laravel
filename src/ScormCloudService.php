@@ -4,7 +4,7 @@ namespace ProgramZheng\ScormCloudLaravel;
 
 use AsifM42\ScormCloud\ScormEngineService;
 
-class ScormCloud
+class ScormCloudService
 {
     public $scormService = null;
     public function __construct() {
