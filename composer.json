@@ -8,11 +8,12 @@
     ],
     "license": "MIT",
     "require": {
-        "asifm42/scorm-cloud-php": "dev-master"
+        "asifm42/scorm-cloud-php": "*"
     },
     "autoload": {
         "psr-4": {
             "ProgramZheng\\ScormCloudLaravel\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
