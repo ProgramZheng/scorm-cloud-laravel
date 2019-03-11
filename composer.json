@@ -22,5 +22,10 @@
             ]
         }
     },
+    "scripts": {
+        "post-package-install": [
+            "@php artisan vendor:publish --provider=ProgramZheng\\ScormCloudLaravel\\ScormCloudLaravelProvider"
+        ]
+    },
     "minimum-stability": "dev"
 }

@@ -15,7 +15,7 @@ class ScormCloudLaravelProvider extends ServiceProvider
     {
         //
         $this->publishes([
-            __DIR__.'/config/scormcloud.php' => config_path('scormcloud.php'),
+            dirname(__DIR__).'/config/scormcloud.php' => config_path('scormcloud.php'),
         ]);
     }
 
