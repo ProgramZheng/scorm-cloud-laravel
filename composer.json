@@ -22,13 +22,5 @@
             ]
         }
     },
-    "scripts": {
-        "post-install-cmd": [
-            "php artisan vendor:publish --provider=ProgramZheng\\ScormCloudLaravel\\ScormCloudLaravelProvider"
-        ],
-        "post-update-cmd" : [
-            "php artisan vendor:publish --provider=ProgramZheng\\ScormCloudLaravel\\ScormCloudLaravelProvider"
-        ]
-    },
     "minimum-stability": "dev"
 }
