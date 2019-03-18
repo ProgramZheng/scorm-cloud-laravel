@@ -1,6 +1,6 @@
 <?php
 
-namespace ProgramZheng\ScormCloudLaravel;
+namespace ProgramZheng\LaravelTranslationTxt;
 
 use Illuminate\Support\ServiceProvider;
 
